@@ -43,3 +43,14 @@ function test()
 }
 test();
 
+//sum of digits
+
+let p = 1;
+let result = 0;
+
+while(p<=100)
+{
+  result = result + p; //
+  p++; //2
+}
+console.log("Sum of 100 natural numbers is: " + result); //5050
